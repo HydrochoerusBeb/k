@@ -1,0 +1,368 @@
+body{
+    background:rgb(46, 22, 116) ;
+    
+    font-family: sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    color: #fff;
+}
+.gg{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_item{
+    color: #fff;
+    
+    /* position: absolute;
+    top: 0px; */
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    background:linear-gradient( rgb(122, 59, 164), rgb(74, 44, 122), rgb(46, 22, 116) );
+    justify-content: space-between;
+    gap: 5vw;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+  }
+.nav_block{
+    /* border: solid; */
+    width: 8vw;
+    height: 7vh;
+    padding-top:2vh;
+    padding-left: 2vw;
+}
+.nav_block:hover{
+    background: #1B1B1D;
+    color: #fff;
+    width: 8vw;
+    height: 6vh;
+}
+img{
+    height: 60px;
+}
+.logo{
+    display: flex;
+    padding-left: 2vw ;
+    
+}
+.bigsign{
+    /* background-color: #fff; */
+    width: 60vw;
+    height: 100vh; 
+    position:relative;
+    right: 12vw;
+    text-align: center;
+    font-size: 100px;
+    padding-top:20vh;
+    padding-left:20%;
+    color: #fff;
+ }
+ .button{
+    border: solid;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    width: 9vw;
+    padding-left: 20px;
+    height: 4vh;
+    position: absolute;
+    top: 50vh;
+    right:1vw;
+    color: #fff;
+}
+.text_plate{
+    position: relative;
+    bottom: 50vh;
+    padding-left: 20px;
+    font-size: 35px;
+}
+.wrap{
+    background-image: url("моча\ в\ говне.jpg");
+    width: 60vw;
+    height: 60vh;
+    position: absolute;
+    left: 20vw;
+    top: 17vh;
+    border-radius: 15px;
+    /* display: flex; */
+
+}
+.second_frame{
+    height: 60vh;
+    width: 45vw;
+    /* border: solid; */
+    border-radius: 25px;
+    position: relative;
+    top: 100vh;
+    left: 48vw;
+    background-color:#0b1031;
+    
+}
+
+img{
+    position: relative;
+    right:45vw;
+    width: 600px;
+    height:500px;
+    border-radius: 25px;
+}
+.third_frame{
+    height: 100vh;
+    width: 50vw;
+    position: relative;
+    top: 100vh;
+}
+.big_plate{
+    position:relative;
+    top: 30vh;
+    left: 20vw;
+    display: grid;
+    color:aliceblue; 
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    grid-template-areas:
+    "A A A A   B B B B "
+    "A A A A   B B B B "
+    "C C C C   D D D D "
+    "C C C C   D D D D "
+    "E E E E   F F F F "
+    "E E E E   F F F F ";
+}
+
+.pic_plates:nth-child(1):hover {
+    animation-name: storch;
+    /* background-color: #fff; */
+    animation-duration: 120s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes storch{
+    2%{
+    background: url('pics/wh4-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+    100%{
+    background: url('pics/wh4-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+}
+.pic_plates:nth-child(2):hover {
+    animation-name: storch1;
+    /* background-color: #fff; */
+    animation-duration: 120s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes storch1{
+    2%{
+    background: url('pics/wh5-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+    100%{
+    background: url('pics/wh5               -PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+}
+.pic_plates:nth-child(3):hover {
+    animation-name: storch2;
+    /* background-color: #fff; */
+    animation-duration: 120s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes storch2{
+    2%{
+    background: url('pics/px7-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+    100%{
+    background: url('pics/px7-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+}
+.pic_plates:nth-child(4):hover {
+    animation-name: storch3;
+    /* background-color: #fff; */
+    animation-duration: 120s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes storch3{
+    2%{
+    background: url('pics/momentum-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+    100%{
+    background: url('pics/momentum-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+}
+.pic_plates:nth-child(5):hover {
+    animation-name: storch4;
+    /* background-color: #fff; */
+    animation-duration: 120s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes storch4{
+    2%{
+    background: url('pics/wf-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+    100%{
+    background: url('pics/wf-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+}
+.pic_plates:nth-child(6):hover {
+    animation-name: storch5;
+    /* background-color: #fff; */
+    animation-duration: 120s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes storch5{
+    2%{
+    background: url('pics/airpods-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+    100%{
+    background: url('pics/airpods-PhotoRoom.png-PhotoRoom.png') no-repeat center bottom / cover
+    }
+}
+
+.pic_plates{
+    border-radius: 25px;
+    height: 15vh;
+    width: 30vw;
+    border: solid;
+    word-wrap: break-word;
+    padding-left: 20px ;
+    padding-top: 20px ;
+}
+.pic_plates:nth-child(1){
+    grid-area: A;
+}
+.pic_plates:nth-child(2){
+    grid-area: B;
+}
+.pic_plates:nth-child(3){
+    grid-area: C;
+}
+.pic_plates:nth-child(4){
+    grid-area: D;
+}
+.pic_plates:nth-child(5){
+    grid-area: E;
+}
+.pic_plates:nth-child(6){
+    grid-area: F;
+}
+.fourth_plate{
+    width: 60vw;
+    height: 65vh;
+    position: relative;
+    top: 110vh;
+    left: 20vw;
+    background-color: #0b1031;
+    border-radius: 25px;
+}
+.text_field{
+    height: 30vh;
+    width: 60vw;
+    padding-left:2vw;
+    padding-top: 1vh ;
+   
+}
+.text_field:nth-child(2){
+    height: 33vh;
+    width: 60vw;
+    padding-left:2vw;
+    padding-top: 1vh ;
+   
+}
+.text_field:nth-child(1):hover {
+    animation-name: storch6;
+    border-radius: 25px;
+    background-size:60vw 25vh ;
+    /* background-color: #fff; */
+    animation-duration: 120s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes storch6{
+    2%{
+    background: url('pics/мзкуслшет.jpg') no-repeat center bottom / cover
+    }
+    100%{
+    background: url('pics/мзкуслшет.jpg') no-repeat center bottom / cover
+    }
+}
+.text_field:nth-child(2):hover {
+    animation-name: storch7;
+    border-radius: 25px;
+    background-size:60vw 25vh ;
+    /* background-color: #fff; */
+    animation-duration: 120s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes storch7{
+    2%{
+    background: url('pics/yeiybr.jpg') no-repeat center bottom / cover
+    }
+    100%{
+    background: url('pics/yeiybr.jpg') no-repeat center bottom / cover
+    }
+}
+.fifth_plate{
+     width: 60vw;
+    height: 65vh;
+    position: relative;
+    top: 110vh;
+    /* left: 20vw; */
+    background-color: #0b1031;
+    border-radius: 25px;
+    margin-bottom: 30vh;
+}
+
+.wrap1{
+    height: 200vh;
+    width: 0;
+    position: relative;
+    top: 100vh;
+    position: relative;
+    top: 50vh;
+    left: 20vw;
+}
+.gig{
+    width: 30vw;
+    height: 15vh;
+    position: relative;
+    left: 30vw;
+   
+}
+.gig:hover{
+    animation-name: dvd;
+    
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-play-state:running;
+}
+@keyframes dvd{
+    0%{
+        transform: 0;
+    }
+    20%{
+        transform: translateY(calc(75vh - 210px));
+    }
+    40%{
+        transform: translateX(calc(-15vw - 210px)) ;
+    }
+  
+    /* 100%{
+        transform: translateX(calc(-15vw - 210px)) ;
+    } */
+
+}
